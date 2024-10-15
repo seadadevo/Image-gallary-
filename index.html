@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallary</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+</head>
+
+<body>
+  <div class="lightbox">
+    <div class="wrapper">
+      <header>
+        <div class="photographer">
+          <i class="uil uil-camera"></i>
+          <span></span>
+        </div>
+        <div class="buttons">
+          <i class="uil uil-import"></i>
+          <i class="uil uil-times"></i>
+        </div>
+      </header>
+      <div class="preview-img">
+        <div class="img">
+          <img src="" alt="preview-img" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="search">
+    <img src="images/search-img.jpg" alt="search-img" />
+    <div class="content">
+      <h1>Image Gallery</h1>
+      <p>Search and download any images within a second</p>
+      <div class="search-box">
+        <i class="uil uil-search"></i>
+        <input type="text" placeholder="Search Images" />
+      </div>
+    </div>
+  </section>
+
+  <section class="gallary">
+    <div class="filter-buttons">
+      <button class="filter-btn" data-category="palestine">palestine</button>
+      <button class="filter-btn" data-category="Egypt">Egypt</button>
+      <button class="filter-btn" data-category="saudi arabia">Saudi Arabia</button>
+      <button class="filter-btn" data-category="sudan">sudan</button>
+    </div>
+    <ul class="images"></ul>
+    <button class="load-more">Load More</button>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
